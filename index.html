@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title></title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="main.css">
   <link href="https://fonts.googleapis.com/css?family=Bubblegum+Sans&display=swap" rel="stylesheet">
@@ -12,6 +12,8 @@
 </head>
 
 <body>
+  <div class="site">
+
 
   <div class="position-relative a-t d-none d-md-flex nb pt-2">
     <div class="d-flex a-l ml-3">
@@ -24,16 +26,28 @@
     </div>
   </div>
 
-  <div class="container d-flex flex-column justify-content-center align-items-center mt-5 mt-sm-5 p-0 mw-100 bm-height">
-    <div class="img-cont rounded-circle">
-      <img class="w-100 shadow" src="me.jpg" alt="">
+  <div class="site container d-flex flex-column justify-content-center align-items-center mt-0 mt-md-5 p-0 mw-100 bm-height">
+
+    <div class="d-flex d-md-none sticky-top justify-content-center sm-icons-top my-sm-5">
+        <img class="sm-icon" src="linkedin.png" alt="">
+        <img class="sm-icon" src="github.png" alt="">
+        <img class="sm-icon" src="instagram.png" alt="">
+        <img class="sm-icon" src="facebook.png" alt="">
+        <img class="sm-icon" src="behance.png" alt="">
+        <img class="sm-icon" src="twitter.png" alt="">
+        <img class="sm-icon" src="telegram.png" alt="">
     </div>
-    <h3 class="bm-header-secondary mt-5">FRONT-END WEB DEVELOPER</h3>
+
+    <div class="mw-100">
+      <img class="shadow pic-large d-none d-sm-block rounded-circle" src="me.jpg" alt="">
+      <img class="w-100 pic-small shadow d-sm-none border-0" src="me.jpg" alt="">
+    </div>
+    <h3 class="bm-header-secondary h6 mt-5 px-3">FRONT-END WEB DEVELOPER</h3>
     <div class="name row mx-auto text-center mt-2 px-0 px-sm-5">
-      <h1 class="bm-header col">Bradley </h1>
-      <h1 class="bm-header col" style="color: var(--red-med) !important;">Morrison</h1>
+      <h1 class="display-4 bm-header col">Bradley </h1>
+      <h1 class="display-4 bm-header col" style="color: var(--red-med) !important;">Morrison</h1>
     </div>
-    <div class="container" style="max-width: 750px;">
+    <div class="container mb-5 mb-lg-4 px-5" style="max-width: 750px;">
       <div class="d-flex flex-wrap justify-content-center mt-5">
         <h3 class="pill text-center p-1 mr-2">CSS</h3>
         <h3 class="pill text-center p-1 mr-2">HTML</h3>
@@ -58,7 +72,7 @@
         <h3 class="pill text-center p-1 mr-2">Github</h3>
       </div>
     </div>
-    <div class="container d-flex align-items-center justify-content-center my-5 pt-5">
+    <div class="sm-icons container d-none d-md-flex align-items-center justify-content-center mb-4">
       <img class="sm-icon" src="linkedin.png" alt="">
       <img class="sm-icon" src="github.png" alt="">
       <img class="sm-icon" src="instagram.png" alt="">
@@ -69,7 +83,10 @@
     </div>
   </div>
 
-
+  <div class="foot navbar-fixed-bottom mw-100 d-flex justify-content-center align-items-center">
+    <p class="copyright text-center my-auto"><span>&copy;</span>  Bradley Morrison 2019</p>
+  </div>
+</div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
