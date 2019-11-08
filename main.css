@@ -20,6 +20,7 @@ body {
   -webkit-font-smoothing: antialiased;
   max-width: 100%;
   overflow-x: hidden;
+  background-color: var(--black);
 }
 
 .star1 {
@@ -230,12 +231,6 @@ body {
   justify-content: center !important;
 }
 
-
-.bm-bg {
-  background-color: var(--black);
-
-}
-
 .bm-height {
   height: 100vh;
 }
@@ -265,7 +260,6 @@ body {
 .img-cont {
   height: 330px;
   width: 330px;
-  border-radius: 400px;
   object-fit: cover;
   overflow: hidden;
   border: 10px var(--grey) solid;
