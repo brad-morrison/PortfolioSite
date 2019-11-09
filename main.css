@@ -6,15 +6,6 @@
   --red-light: #C3073F;
 }
 
-.font-cera {
-  font-family: 'Cera Pro';
-  font-weight: 900;
-  font-style: normal;
-  line-height: 0.8;
-  color: var(--red-light) !important;
-  font-size: 80px;
-}
-
 .html {
   box-sizing: border-box;
   width: 100%;
